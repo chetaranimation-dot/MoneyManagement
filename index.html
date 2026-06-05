@@ -982,7 +982,7 @@ if(!st.categories) st.categories=[...DEFAULT_CATS];
 if(!st.settings.limitKategori) st.settings.limitKategori={};
 if(!st.tags) st.tags=[];
 
-let curYear, curMonth, txFilter='semua', txType='pengeluaran', debtType='hutang', activeTagFilters=new Set(), selectedTxTags=new Set();
+let curYear, curMonth, txFilter='semua', txType='pengeluaran', debtType='hutang', txSearch = '', activeTagFilters=new Set(), selectedTxTags=new Set();
 
 // ══════════════════════════════════════════════════════
 // GOOGLE DRIVE
